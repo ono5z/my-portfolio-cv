@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+.bg {
+ background-color:rgb(238, 234, 234);
+ left: 300px;
+}
+
+.bg1 {
+    background-color:rgb(153, 147, 147);
+   }
+
+   .bg2 {
+    background-color:rgb(100, 98, 98);
+   }
+
+   .bg4 {
+    background-color:black;
+   }
+
+
+.navbar  {
+    color: rgba(228, 188, 192, 0.589);
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.card-header {
+    color: black;
+
+}
+
+.card-footer {
+    border-radius: 0px;
+    text-decoration: none;
+}
+
+.btn1 {
+    background-color:black;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    color:white;
+    border-radius: 0px;
+}
+
+.nav-link a:hover {
+    background-color: #dddddd;
+
+}
+
+.btn2 {
+    background-color:white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    color:black;
+    border-radius: 0px;
+}
+
+.button button:hover {
+    background-color:rgb(201, 200, 200);
+    color:black
+}
+
+.line {
+    background-color: rgb(187, 186, 186);
+}
+
+.card img:hover {
+    background-color:rgb(216, 209, 209);
+    opacity: 0.7;
+}
+
+.dark1{
+    background-color: black;
+    color: white;
+}
+
+.page{
+    background-color: black;
+}
+
+.hover-black{
+    color: black;
+}
+.hover-black:hover{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+
+.hover-white{
+    color: white;
+    background-color: black;
+}
+.hover-white:hover{
+    background-color: rgb(221, 215, 215);
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*progress bar */
+.progress-bar {
+    background-color: rgb(104, 103, 103);  
+}
+.progress {
+   background-color: rgb(160, 159, 159); 
+}
+
+.btn1:hover {
+    background-color: rgb(196, 194, 194); 
+    color: black;
+}
+
+
+/*How much i charge*/
+
+.card1 {
+    background-color: grey;
+    color:white;
+    opacity: 1;
+}
+
+/*.card {background-color: rgb(67, 181, 201);}
+.card:hover {
+    background-color: #009688;
+}*/
+.card1:hover {
+    background-color: black;
+} 
+
+.btn {
+    background-color: #009688;
+}
+.btn:hover {
+    background-color: black;
+}
+
+
+/*How much i charge*/
+
+.col11 {
+padding-left: 0px;
+
+}
+
+.col11:hover {
+    backface-visibility: inherit;
+    background-color: aqua;
+}
+.col111 :hover {
+    background-color: black;
+  
+}
+
+.footer {
+    background-color: rgb(235, 226, 226);
+}
+
+.col112 {
+    background-color: #009688;  
+}
+
+
+.row-footer:hover {
+    background-color:rgb(197, 193, 193);
+    color: black;
+}
+
+.btn3 {
+    background-color:#009688;
+    color: white;
+    padding: 10px;
+}
+.btn3:hover {
+    background-color: black;
+}
+
+
+#op{
+    opacity: 50%;
+}
+
+#op:hover{
+    opacity: 100%;
+    transition: .2s;
+}
+
+.picture1 {
+    display: none;
+}
+
+.pagination{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50, -50%);
+}
+@media (max-width: 900px) {
+    .hd {
+        display: none;
+    }
+
+    .bg {
+        left: 0px;
+    }
+
+    .picture1{
+        display: grid;
+        background-color:rgb(238, 234, 234);
+        padding-left: 65%;
+    }
+    .mt-3 {
+        border-radius: 100%;
+    }
+
+.col {
+    position: inherit;
+}
+
+
+.btn1 {
+width: px;
+}
+
+}
